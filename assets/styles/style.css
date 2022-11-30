@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/one-piece-font.ttf') format('truetipe');
+    font-style: normal;
+    font-size: normal;
+}
+
+.card{
+    width: 80%;
+    max-width: 250px;
+    margin: 120px auto;
+    box-shadow: 0 0 .5px;
+    background: #ffe1ce;
+    background: -webkit-linear-gradient(to bottom, #a17e64, #ffe1ce);
+    background: linear-gradient(to bottom, #a17e64, #ffe1ce);
+    border-radius: 4px;
+    text-align: center;
+    color: #171717;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.card-paragraph{
+    text-align: center;
+    font-size: small;
+}
+
+.card-button{
+    text-align: end;
+    text-decoration: none;
+    color: #171717;
+}
